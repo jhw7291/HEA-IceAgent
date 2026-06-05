@@ -1,0 +1,32 @@
+# Files to exclude from GitHub
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.env
+.venv
+*.egg-info/
+dist/
+build/
+
+# Data files (too large for GitHub — download from Zenodo instead)
+*.csv
+!requirements.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Output
+results/
+*.html
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
